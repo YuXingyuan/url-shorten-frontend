@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  uispa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: uispaimage
+    ports:
+      - "3000:80"
